@@ -5,8 +5,8 @@
   <meta name="Volantis" content="6.0.0-alpha.0">
   <meta charset="utf-8">
   <!-- SEO相关 -->
-  <meta name="robots" content="index,follow">
-  <link rel="canonical" href="http://Victorshuai1233.github.io/"/>
+  
+  <link rel="canonical" href="http://Victorshuai1233.github.io/2022/11/15/index/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://unpkg.com'>
@@ -33,18 +33,21 @@
 
   <!-- feed -->
   <!-- 页面元数据 -->
-  <title>Victor_SW'Blog</title>
-  <meta name="keywords" content="">
+  <title>配置Yum仓库 - Victor_SW'Blog</title>
+  <meta name="keywords" content="标签1,null">
   <meta desc name="description" content="悲观是远见，乐观是智慧 - Victor_SW - Victor_SW'Blog">
   
-<meta property="og:type" content="website">
-<meta property="og:title" content="Victor_SW&#39;Blog">
-<meta property="og:url" content="http://victorshuai1233.github.io/index.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="配置Yum仓库">
+<meta property="og:url" content="http://victorshuai1233.github.io/2022/11/15/index/index.html">
 <meta property="og:site_name" content="Victor_SW&#39;Blog">
-<meta property="og:description" content="悲观是远见，乐观是智慧">
+<meta property="og:description" content="CentOS 7配置本地源环境准备挂载iso的镜像文件在CD&#x2F;DVD驱动器上，或者上传iso镜像文件至服务器上（需要进行额外的操作） 举例：如下，需要确保，已连接已打开，且CD&#x2F;DVD上的介质符合当前操作系统的版本。   手动配置本地源创建本地源文件夹： 1mkdir -p &#x2F;media&#x2F;centos&#x2F;  挂载镜像文件至指定的目录。 1mount &#x2F;dev&#x2F;cdrom &#x2F;med">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+<meta property="article:published_time" content="2022-11-15T08:16:00.000Z">
+<meta property="article:modified_time" content="2022-11-15T08:21:15.500Z">
 <meta property="article:author" content="Victor_SW">
+<meta property="article:tag" content="标签1">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png">
   <style>
@@ -2087,7 +2090,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <!-- Custom Files bodyBegin begin-->
     
     <!-- Custom Files bodyBegin end-->
-    <header itemscope itemtype="http://schema.org/WPHeader" id="l_header" class="l_header auto shadow floatable blur " style='opacity: 0' >
+    <header itemscope itemtype="http://schema.org/WPHeader" id="l_header" class="l_header auto shadow floatable blur show" style='opacity: 0' >
   <div class='container'>
   <div id='wrapper'>
     <div class='nav-sub'>
@@ -2356,7 +2359,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     
       <!-- see: /layout/_partial/scripts/_ctrl/coverCtrl.ejs -->
-      <div id="full" class='cover-wrapper  search' style="display: ;">
+      <div id="none" class='cover-wrapper post search' style="display: none;">
         
   <div class='cover-bg lazyload placeholder' data-bg="https://tva2.sinaimg.cn/large/008pRyXKly8h85xxjm3wsj31hg0u0grn.jpg"></div>
 
@@ -2424,7 +2427,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   </div>
 </div>
 
-        <div id="scroll-down" style="display: ;"><i class="fa fa-chevron-down scroll-down-effects"></i></div>
+        <div id="scroll-down" style="display: none;"><i class="fa fa-chevron-down scroll-down-effects"></i></div>
       </div>
     
   
@@ -2434,31 +2437,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         <div class="body-wrapper">
           
 <div id="l_main" class=''>
-  
-  <section class="post-list">
-    
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-        
-          
-        
-      
-    
-    
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
+  <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
   <link itemprop="mainEntityOfPage" href="http://victorshuai1233.github.io/2022/11/15/index/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="Victor_SW'Blog">
@@ -2468,70 +2447,299 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <meta itemprop="description" content="悲观是远见，乐观是智慧">
   </span>
   
-  
+
+
   
     <span hidden>
       <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png">
     </span>
   
-  
+  <div class="article-meta" id="top">
     
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2022/11/15/index/"  itemprop="url">
+    
+    
+      <h1 class="title" itemprop="name headline">
         配置Yum仓库
-      </a>
-    </h2>
+      </h1>
+      <div class='new-meta-box'>
+        
+          
+            
+<div class='new-meta-item author' itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <a itemprop="url" class='author' href="/" rel="nofollow">
+    <img itemprop="image" src="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/apple-touch-icon.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/apple-touch-icon.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+    <p itemprop="name">请设置文章作者</p>
+  </a>
+</div>
+
+          
+        
+          
+            
   
-  <div class='md article-desc' itemprop="articleBody">
+  
+  
+  <div class='new-meta-item category'>
+    <i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i>
+    <a class="category-link" href="/categories/Linux/">Linux</a>
     
-      
-        CentOS 7配置本地源环境准备挂载iso的镜像文件在CD&#x2F;DVD驱动器上，或者上传iso镜像文件至服务器上（需要进行额外的操作）
-举例：如下，需要确保，已连接已打开，且CD&#x2F;DVD上的介质符合当前操作系统的版本。
-
-
-手动配置本地源创建本地源文件夹：
-1mkdir -p /media/centos/
-
-挂载镜像文件至指定的目录。
-1mount /dev/cdrom /...
-      
+      <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+        <a href="/categories/Linux/" itemprop="url"><span itemprop="name">Linux</span></a>
+      </span>
     
   </div>
   
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time itemprop="dateCreated datePublished" datetime="2022-11-15T16:16:00+08:00">2022-11-15</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/Linux/">Linux</a>
-          
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/Linux/" itemprop="url"><span itemprop="name">Linux</span></a>
-            </span>
+
+
+
           
         
+          
+            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2022-11-15T16:16:00+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2022年11月15日</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+
+
+          
+        
+        <!-- Custom Files topMeta begin-->
+        
+        <!-- Custom Files topMeta end-->
       </div>
+    
+  </div>
+
+
+  <div id="layoutHelper-page-plugins"></div>
+  <div id="post-body" itemprop="articleBody">
+    <h1 id="CentOS-7配置本地源"><a href="#CentOS-7配置本地源" class="headerlink" title="CentOS 7配置本地源"></a>CentOS 7配置本地源</h1><h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><p><strong>挂载iso的镜像文件在CD&#x2F;DVD驱动器上</strong>，或者上传iso镜像文件至服务器上（需要进行额外的操作）</p>
+<p>举例：如下，需要确保，已连接已打开，且CD&#x2F;DVD上的介质符合当前操作系统的版本。</p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/29af8ea9-5cdc-4a91-b44a-eca20c4d3f53/Untitled.png" class="lazyload" data-srcset="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/29af8ea9-5cdc-4a91-b44a-eca20c4d3f53/Untitled.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Untitled"></p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/73727fd9-dd6f-4d29-93b1-d19c1f2a2f07/Untitled.png" class="lazyload" data-srcset="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/73727fd9-dd6f-4d29-93b1-d19c1f2a2f07/Untitled.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Untitled"></p>
+<h2 id="手动配置本地源"><a href="#手动配置本地源" class="headerlink" title="手动配置本地源"></a>手动配置本地源</h2><p>创建本地源文件夹：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir -p /media/centos/</span><br></pre></td></tr></table></figure>
+
+<p>挂载镜像文件至指定的目录。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mount /dev/cdrom /media/centos</span><br></pre></td></tr></table></figure>
+
+<p>备份原本地源。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cp -rf /etc/yum.repos.d  /etc/yum.repos.d_$(date &#x27;+%Y%m%d_%H%M%S&#x27;)</span><br></pre></td></tr></table></figure>
+
+<p>删除默认原本地源。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm -rf /etc/yum.repos.d/*</span><br></pre></td></tr></table></figure>
+
+<p>配置本地源，创建Media.repo文件。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /etc/yum.repos.d/Media.repo</span><br></pre></td></tr></table></figure>
+
+<p>配置如下内容：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">[iso]</span><br><span class="line">name=Media</span><br><span class="line">baseurl=file:///media/centos/</span><br><span class="line">gpgcheck=0</span><br><span class="line">enabled=1</span><br></pre></td></tr></table></figure>
+
+<p>按ESC。输入:wq保存完成编写，且完成本地源的配置。</p>
+<p>加载本地yum源&amp;测试</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 清除yum缓存</span><br><span class="line">yum clean all</span><br><span class="line"># 缓存本地yum源</span><br><span class="line">yum makecache</span><br><span class="line"># 测试yum本地源 </span><br><span class="line">yum list</span><br></pre></td></tr></table></figure>
+
+<h2 id="脚本直配本地源"><a href="#脚本直配本地源" class="headerlink" title="脚本直配本地源"></a>脚本直配本地源</h2><ol>
+<li>找个目录，创建脚本文件：</li>
+</ol>
+<blockquote>
+<p>本人以&#x2F;root&#x2F;目录为例</p>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /root/auto_source.sh</span><br></pre></td></tr></table></figure>
+
+<p>编写如下内容：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">#!/bin/bash</span><br><span class="line"></span><br><span class="line"># 创建本地源文件夹</span><br><span class="line">mkdir -p /media/centos/</span><br><span class="line"># 挂载镜像文件至指定的目录</span><br><span class="line">mount /dev/cdrom /media/centos</span><br><span class="line"># 备份原本地源</span><br><span class="line">cp -rf /etc/yum.repos.d  /etc/yum.repos.d_$(date &#x27;+%Y%m%d_%H%M%S&#x27;)</span><br><span class="line"># 删除默认原本地源</span><br><span class="line">rm -rf /etc/yum.repos.d/*</span><br><span class="line"># 配置本地源,创建Media.repo文件,并配置如下内容</span><br><span class="line">cd /etc/yum.repos.d/</span><br><span class="line">&gt;Media.repo</span><br><span class="line">echo &#x27;[iso]&#x27;                            &gt;&gt; Media.repo</span><br><span class="line">echo &#x27;name=Media&#x27;                       &gt;&gt; Media.repo</span><br><span class="line">echo &#x27;baseurl=file:///media/centos/&#x27;    &gt;&gt; Media.repo</span><br><span class="line">echo &#x27;gpgcheck=0&#x27;                       &gt;&gt; Media.repo</span><br><span class="line">echo &#x27;enabled=1&#x27;                        &gt;&gt; Media.repo</span><br><span class="line"># 清除yum缓存</span><br><span class="line">yum clean all</span><br><span class="line"># 缓存本地yum源</span><br><span class="line">yum makecache</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>按ESC。输入:wq保存，完成镜像本地源的脚本文件的编写</li>
+<li>赋予脚本可执行的权限</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod +x /root/auto_source.sh</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>执行脚本文件，即可</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/root/auto_source.sh</span><br></pre></td></tr></table></figure>
+
+<h1 id="RedHat-7-配置本地源"><a href="#RedHat-7-配置本地源" class="headerlink" title="RedHat 7 配置本地源"></a>RedHat 7 配置本地源</h1><p>iso的镜像文件在CD&#x2F;DVD驱动器上，或者上传iso镜像文件至服务器上（需要进行额外的操作）</p>
+<p>举例：如下，需要确保，已连接已打开，且CD&#x2F;DVD上的介质符合当前操作系统的版本。</p>
+<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6422e86f-776b-4fed-8af5-364414518d40/Untitled.png" class="lazyload" data-srcset="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6422e86f-776b-4fed-8af5-364414518d40/Untitled.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Untitled"></p>
+<h2 id="手动配置镜像源"><a href="#手动配置镜像源" class="headerlink" title="手动配置镜像源"></a>手动配置镜像源</h2><ol>
+<li>创建本地源文件夹：</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir -p /mnt/cdrom</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>挂载镜像文件至指定的目录。</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mount /dev/cdrom /mnt/cdrom</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>备份原本地源。</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cp -rf /etc/yum.repos.d  /etc/yum.repos.d_$(date &#x27;+%Y%m%d_%H%M%S&#x27;)</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>删除默认原本地源。</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm -rf /etc/yum.repos.d/*</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>配置本地源，创建Media.repo文件。</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /etc/yum.repos.d/local.repo</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>配置如下内容：</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[local]</span><br><span class="line">name=local</span><br><span class="line">baseurl=file:///mnt/cdrom</span><br><span class="line">gpgcheck=1</span><br><span class="line">enabled=1</span><br><span class="line">gpgkey=file:///mnt/cdrom/RPM-GPG-KEY-redhat-release</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>按ESC。输入:wq保存完成编写，且完成本地源的配置。</li>
+<li>加载本地yum源&amp;测试</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 清除yum缓存</span><br><span class="line">yum clean all</span><br><span class="line"># 缓存本地yum源</span><br><span class="line">yum makecache</span><br><span class="line"># 测试yum本地源 </span><br><span class="line">yum list</span><br></pre></td></tr></table></figure>
+  </div>
+  
+  
+    
+    <div class='footer'>
+       <!-- 参考资料、相关资料等 -->
       
-        <div>
-          <a class='readmore' href='/2022/11/15/index/' itemprop="url">
-            閱讀全文
-          </a>
-        </div>
+       <!-- 相关文章 -->
+      
+      <!-- 版权声明组件 -->
+      
+      <!-- 打赏组件 -->
       
     </div>
   
+  
+    
 
+
+  <div class='article-meta' id="bottom">
+    <div class='new-meta-box'>
+      
+        
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2022-11-15T16:21:15+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
+    <p>更新于：2022年11月15日</p>
+  </a>
 </div>
 
-          </div>
         
       
-    
-  </section>
+        
+          
   
-    
   
+  
+  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E6%A0%87%E7%AD%BE1/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>标签1</p></a></div>
+  <span hidden itemprop="keywords">标签1</span>
+  
+
+
+        
+      
+        
+          
+  <div class="new-meta-item share -mob-share-list">
+  <div class="-mob-share-list share-body">
+    
+      
+        <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://victorshuai1233.github.io/2022/11/15/index/&title=配置Yum仓库 - Victor_SW'Blog&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/logo/128/qq.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/logo/128/qq.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://victorshuai1233.github.io/2022/11/15/index/&title=配置Yum仓库 - Victor_SW'Blog&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/logo/128/qzone.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/logo/128/qzone.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://service.weibo.com/share/share.php?url=http://victorshuai1233.github.io/2022/11/15/index/&title=配置Yum仓库 - Victor_SW'Blog&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/logo/128/weibo.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/logo/128/weibo.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+
+
+        
+      
+    </div>
+    <!-- Custom Files bottomMeta begin -->
+    
+    <!-- Custom Files bottomMeta end -->
+  </div>
+
+
+  
+  
+
+  
+  <!-- 文章推荐 -->
+  
+  
+  <!-- Custom Files postEnd begin-->
+  
+  <!-- Custom Files postEnd end-->
+</article>
+
+
+  
+
+
+  <article class="post white-box shadow floatable blur" id="comments">
+    <span hidden>
+      <meta itemprop="discussionUrl" content="/2022/11/15/index/index.html#comments">
+    </span>
+    <p ct><i class='fa-solid fa-comments'></i> 评论</p>
+    
+
+    <div id="layoutHelper-comments"></div>
+
+  </article>
+
+
+
+
 
 
 </div>
@@ -2542,134 +2750,48 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
       
-<section class="widget blogger desktop mobile pjax">
-  <div class='content'>
     
-      
-        <a class='avatar flat-box rectangle' href='/about/'>
-          <img no-lazy src='https://tva1.sinaimg.cn/large/008pRyXKly8h85y8zb8cwj31hc0u0af3.jpg'/>
-        </a>
-      
-    
-    
-      <div class='text'>
-        
-        
-        
-          <p><span id="jinrishici-sentence">Victor_SW'Blog</span></p>
-          <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-        
-      </div>
-    
-    
-      <div class="social-wrapper">
-        
-          
-            <a href="/atom.xml"
-              class="social fa-solid fa-rss flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="mailto:me@xxx.com"
-              class="social fa-solid fa-envelope flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="https://github.com/volantis-x/"
-              class="social fab fa-github flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="/"
-              class="social fa-solid fa-headphones-alt flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-      </div>
-    
-  </div>
-</section>
-
-    
-  
-
-  
-    
-    
-      
-  
-  <section class="widget category desktop pjax">
-    
-  <header>
-    
-      <a href='/blog/categories/'><i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i><span class='name'>文章分类</span></a>
-    
-  </header>
-
-
-    <div class='content'>
-      <ul class="entry navigation">
-        
-          <li><a class="flat-box"
-            title="/categories/Linux/" href="/categories/Linux/"
-            active-action="action-categoriesLinux"
-            ><div class='name'>Linux</div><div class='badge'>(1)</div></a></li>
-        
-      </ul>
-    </div>
-  </section>
-
-
-    
-  
-
-  
-    
-    
-      
-  
-  <section class="widget tagcloud desktop mobile pjax">
-    
-  <header>
-    
-      <a href='/blog/tags/'><i class="fa-solid fa-tags fa-fw" aria-hidden="true"></i><span class='name'>热门标签</span></a>
-    
-  </header>
-
-
-    <div class='content'>
-      <a href="/tags/%E6%A0%87%E7%AD%BE1/" style="font-size: 14px; color: #999">标签1</a>
-    </div>
-  </section>
-
-
-    
-  
-
   
 
 
 <div class="widget-sticky pjax">
 
+  
+  
+
+
+  <section class="widget toc-wrapper desktop mobile " id="toc-div" >
+    
+  <header>
+    
+      <i class="fa-solid fa-list fa-fw" aria-hidden="true"></i><span class='name'>本文目录</span>
+    
+  </header>
+
+
+    <div class='content'>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%8E%AF%E5%A2%83%E5%87%86%E5%A4%87"><span class="toc-text">环境准备</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%89%8B%E5%8A%A8%E9%85%8D%E7%BD%AE%E6%9C%AC%E5%9C%B0%E6%BA%90"><span class="toc-text">手动配置本地源</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%84%9A%E6%9C%AC%E7%9B%B4%E9%85%8D%E6%9C%AC%E5%9C%B0%E6%BA%90"><span class="toc-text">脚本直配本地源</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%89%8B%E5%8A%A8%E9%85%8D%E7%BD%AE%E9%95%9C%E5%83%8F%E6%BA%90"><span class="toc-text">手动配置镜像源</span></a></li></ol>
+    </div>
+  </section>
+
+  
+
 </div>
 
 
 <!-- 没有 pjax 占位会报错 万恶的 pjax -->
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
 
   <div class="pjax">
     <!-- pjax占位 -->
@@ -2704,7 +2826,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <pjax>
 <script>
   window.pdata={}
-  pdata.ispage=false;
+  pdata.ispage=true;
   pdata.commentPath="";
   pdata.commentPlaceholder="";
   pdata.commentConfig={};
@@ -2713,15 +2835,15 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     // header
     var l_header=document.getElementById("l_header");
     
-    l_header.classList.remove("show");
+    l_header.classList.add("show");
     
     
       // cover
       var cover_wrapper=document.querySelector('#l_cover .cover-wrapper');
       var scroll_down=document.getElementById('scroll-down');
-      cover_wrapper.id="full";
-      cover_wrapper.style.display="";
-      scroll_down.style.display="";
+      cover_wrapper.id="none";
+      cover_wrapper.style.display="none";
+      scroll_down.style.display="none";
     
   
 </script>
@@ -3226,7 +3348,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Victor_SW'Blog","url":"http://Victorshuai1233.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Victor_SW","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://Victorshuai1233.github.io/","sameAs":["https://github.com/volantis-x"],"description":"悲观是远见，乐观是智慧"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://Victorshuai1233.github.io/","name":"Victor_SW'Blog"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Victor_SW'Blog","url":"http://Victorshuai1233.github.io/","keywords":null,"description":"悲观是远见，乐观是智慧","author":{"@type":"Person","name":"Victor_SW","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://Victorshuai1233.github.io/","description":"悲观是远见，乐观是智慧"},"publisher":{"@type":"Organization","name":"Victor_SW'Blog","url":"http://Victorshuai1233.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://Victorshuai1233.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","description":"悲观是远见，乐观是智慧","inLanguage":"zh_CN","mainEntityOfPage":{"@type":"WebPage"},"author":{"@type":"Person","name":"Victor_SW","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://Victorshuai1233.github.io/"},"publisher":{"@type":"Organization","name":"Victor_SW'Blog","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"wordCount":0,"image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Victor_SW'Blog","url":"http://Victorshuai1233.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Victor_SW","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://Victorshuai1233.github.io/","sameAs":["https://github.com/volantis-x"],"description":"悲观是远见，乐观是智慧"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://Victorshuai1233.github.io/","name":"Victor_SW'Blog"}},{"@type":"ListItem","position":2,"item":{"@id":"http://Victorshuai1233.github.io/categories/Linux/","name":"Linux"}},{"@type":"ListItem","position":3,"item":{"@id":"http://Victorshuai1233.github.io/2022/11/15/index/","name":"配置Yum仓库"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"Victor_SW'Blog","url":"http://Victorshuai1233.github.io/","keywords":null,"description":"悲观是远见，乐观是智慧","author":{"@type":"Person","name":"Victor_SW","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://Victorshuai1233.github.io/","description":"悲观是远见，乐观是智慧"},"publisher":{"@type":"Organization","name":"Victor_SW'Blog","url":"http://Victorshuai1233.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://Victorshuai1233.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"配置Yum仓库","description":"悲观是远见，乐观是智慧","inLanguage":"zh_CN","mainEntityOfPage":{"@type":"WebPage","@id":"http://victorshuai1233.github.io/2022/11/15/index/"},"author":{"@type":"Person","name":"Victor_SW","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://Victorshuai1233.github.io/"},"publisher":{"@type":"Organization","name":"Victor_SW'Blog","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://victorshuai1233.github.io/2022/11/15/index/","wordCount":0,"datePublished":"2022-11-15T08:16:00.000Z","dateModified":"2022-11-15T08:21:15.500Z","articleSection":"Linux","keywords":"标签1","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
